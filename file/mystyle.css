@@ -1,0 +1,57 @@
+body{
+	background-image: url('background.jpg');
+	background-repeat:repeat;
+/*	background-repeat:repeat-x;
+	background-repeat:repeat-y;
+	background-repeat:no-repeat;
+
+	*/
+	/* mozemo da kljucimo i ove ostale nacina ako nam trebaju */
+}
+
+#DivId{
+	width: 300px;
+	height: 100px;
+	color: red; /* na ovaj nacin nam je crveni li element */
+	background-color: rgb(101, 150, 240); /* sa background color menjamo boju diva u kome su liste */
+	/*Boje koje mozemo dodati elementima koji su u divu sa id-em DivID*/
+	/*color: rgb(31%, 59%, 94%); */ 
+	/*color: rgb(101, 150, 240); */
+	/*color: #6495ED; */
+}
+
+/* podesavamo border, margine za li elemente */
+
+li{
+	margin: 5px;
+	border-style: solid;
+ 	border-width: 2px;
+ 	border-color: yellow;
+}
+
+/* menjamo font u paragrafu sa klasom .font */
+
+.font{
+	font: italic bold 12px Georgia, serif;
+
+}
+
+.VelikaSlova{
+	text-transform: uppercase;
+}
+
+.MalaSlova{
+	text-transform: lowercase;
+	
+}
+
+.SvakaRecVelikoSlovo{
+	text-transform: capitalize;
+}
+
+.pozicija{
+	object-position: 100px 10%;
+	position: absolute;
+	position: relative;
+	/* position: fixed; */
+}
